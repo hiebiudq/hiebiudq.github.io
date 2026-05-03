@@ -8,6 +8,3 @@ h1{
     font-size:25px;
     font-family:'Arial';
 }
-p:hover, h1:hover, a:hover {
-  background-color: yellow;
-}
