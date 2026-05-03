@@ -4,13 +4,13 @@
       <style>
           #navbar ul {
               list-style-type: none; 
-              margin: 0;
+              margin: 10px;
               padding: 0;
               display: flex; 
               border-radius:10px;
-              border: 10px solid black;
+              border: 5px solid black;
               justify-content: center;
-              background-color: #FF474C;
+              background-color: #06402B;
           }                         
           #navbar li {
               margin-right: 20px;    
@@ -18,10 +18,28 @@
             
           #navbar a {
               text-decoration: none;
-              color: yellow;        
+              color:#C4A484;        
               padding: 10px;         
               display: block;
           }
+          .normal {
+              text-align:center;
+              background-color:#90EE90;
+              border-radius:10px;
+              border: 5px solid black;
+              padding: 10px;
+          }
+          .normal p {
+              color:#006400;
+              text-align:center;
+          }
+          p:hover, h1:hover{
+              font-size:25px;
+          }
+          .normal h1{
+              font-size:40px;
+          }
+
         </style>
     </head>
   <body style="background-color:#3D9DD9;">
@@ -33,11 +51,14 @@
         <li><a href="WrapUphome3.html">Plants</a></li>
       </ul>
     </div>
-    <div>
-      <h1>Plant Vs Zombie</h1>
-      <p style = "text-align:center;">
-        <img src="plantvszombie.jpg" width = "500" height = "300">
-        This game is about destroying zombies with an variety of plants.</p>
+    <div class = "normal">
+      <h1 style = "font-family: myfont">Game Play</h1>
+        <p style="width: 600px">
+            This game revolve around the idea of the user planting down plants to defend their home against an variety of zombies, 
+            as the user progress througthout the game the user unlocks more plants to defend against stronger enemies such as bosses
+            and machines. On the right side is one of the first plant that the user unlock : A pea shooter.
+            <
+        </p>
     </div>
   </body>
 </html>
