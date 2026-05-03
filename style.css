@@ -9,6 +9,7 @@ h1{
     font-family:'Arial';
 }
 @font-face {
+    font-size: 40px;
     font-family: "myfont"; 
     src: url("brianne_s_hand-webfont.woff"); 
 }
